@@ -1,0 +1,140 @@
+* {
+    font-family: Poppins;
+    color: white
+}
+
+#instruction {
+    font-weight: 500;
+    font-size: 1.5rem;
+    color: white
+}
+
+body {
+    background: linear-gradient(#0D324D, #7F5A83);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    gap: 20px
+}
+
+h4 {
+    color: white
+}
+
+#submit {
+    transform: scale(0);
+    transition: transform .5s;
+    background: none;
+
+    border: none
+}
+
+#sub {
+    font-size: 30px;
+    transition: font-size .25s;
+    color: white
+}
+
+#sub:hover {
+    font-size: 40px
+}
+
+#search {
+    width: 100%;
+    border: none;
+    height: 90%;
+    background-color: inherit;
+    color: white
+}
+
+#search:focus {
+    outline: none
+}
+
+.icon {
+    margin-right: 10px;
+    transition: font-size .25s;
+    color: red
+}
+
+.icon:hover {
+    font-size: 30px;
+    cursor: pointer
+}
+
+#input-icons {
+    transition: transform .25s;
+    transform: scale(0);
+    border: 3px solid white;
+    border-radius: 10%;
+    height: 40px;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    font-size: 20px
+}
+
+#milorad>*:hover {
+    opacity: 0.5
+}
+
+#milorad>* {
+    background-color: inherit;
+    margin: 10px;
+    padding: 10px 10px;
+    border: 2px solid white;
+    border-radius: 10%;
+    text-decoration: none;
+    color: white
+}
+
+#milorad>*>* {
+    text-decoration: none;
+    color: white
+}
+
+#start {
+    border: none;
+    font-size: 50px;
+    transition: transform .25s;
+    position: absolute;
+    background: none;
+}
+
+#orange {
+    color: white;
+
+}
+
+#random {
+    text-decoration: none;
+    color: white;
+    font-size: 2rem;
+    transition: color .25s
+}
+
+;
+
+#random:hover {
+    color: gray;
+}
+
+@media screen and (max-width: 400px) {
+    #input-icons {
+        width: 90%
+    }
+
+    #random {
+        transform: scale(0.9)
+    }
+}
+
+@media screen and (max-width: 308px) {
+
+    #random {
+        transform: scale(0.8)
+    }
+}
